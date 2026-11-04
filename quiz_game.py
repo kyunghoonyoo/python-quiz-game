@@ -77,6 +77,7 @@ class QuizGame:
         print("🏆 퀴즈 결과")
         print(f"총 {total}문제 중 {correct}문제 정답!")
         print(f"점수: {score}점")
+        print(f"정답률: {correct}/{total}")
 
         if correct > self.best_score:
             self.best_score = correct
