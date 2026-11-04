@@ -79,3 +79,9 @@ cd ~/projects/python-quiz-game
 
 ### 자동 테스트
 ![자동 테스트](docs/screenshots/12_tests.png)
+
+## Git Clone 및 Pull 실습
+
+GitHub 저장소를 별도 폴더에 복제했습니다.
+복제한 폴더에서 README를 수정하고 commit 및 push를 진행했습니다.
+이후 원래 프로젝트 폴더에서 pull을 실행하여 변경사항이 반영되는 것을 확인했습니다.
