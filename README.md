@@ -21,3 +21,9 @@ Python의 기본 문법을 반복해서 학습하고 확인할 수 있는 프로
 source .venv/bin/activate
 python main.py
 스크린샷은 docs/screenshots 폴더에서 확인할 수 있습니다.
+
+## Git Clone 및 Pull 실습
+
+GitHub 저장소를 별도 폴더에 복제했습니다.
+복제한 폴더에서 README를 수정하고 commit 및 push를 진행했습니다.
+이후 원래 프로젝트 폴더에서 pull을 실행하여 변경사항이 반영되는 것을 확인했습니다.
