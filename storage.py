@@ -39,6 +39,11 @@ class StateStorage:
                 for item in raw_quizzes
             ]
 
+            print(
+                f"📂 저장된 데이터를 불러왔습니다. "
+                f"(퀴즈 {len(quizzes)}개)"
+            )
+
             return quizzes, best_score
 
         except (json.JSONDecodeError, ValueError, TypeError, OSError) as error:
